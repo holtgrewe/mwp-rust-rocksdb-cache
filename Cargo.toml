@@ -1,0 +1,11 @@
+[package]
+name = "mwp_rust_rocksdb_cache"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "mwp_rust_rocksdb_cache"
+path = "src/lib.rs"
+
+[dependencies]
+rocksdb = { version = "0.21", features = ["multi-threaded-cf"] }
